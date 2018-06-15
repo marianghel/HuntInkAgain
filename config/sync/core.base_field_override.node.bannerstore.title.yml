@@ -1,0 +1,18 @@
+uuid: 54f4ec86-7096-49c0-abe4-3ddf3402c706
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bannerstore
+id: node.bannerstore.title
+field_name: title
+entity_type: node
+bundle: bannerstore
+label: banner
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

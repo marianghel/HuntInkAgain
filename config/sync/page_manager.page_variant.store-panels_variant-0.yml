@@ -1,0 +1,56 @@
+uuid: 2f79fa01-3f68-447e-8f1b-b36a3851ed9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.store
+    - views.view.featured_clothes_flexslider
+  content:
+    - 'block_content:bloque_text_n_img_meh:45cad8d1-87e4-46d9-a994-7bfc26c09bd2'
+  module:
+    - block_content
+    - panels
+    - views
+id: store-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    a8719fe8-b768-41cf-8aff-5a76f2a09be4:
+      id: 'views_block:featured_clothes_flexslider-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: a8719fe8-b768-41cf-8aff-5a76f2a09be4
+      context_mapping: {  }
+    610b4210-9cf6-4617-a5af-256917f91eb8:
+      id: 'block_content:45cad8d1-87e4-46d9-a994-7bfc26c09bd2'
+      label: CostumBlockStore
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 0
+      uuid: 610b4210-9cf6-4617-a5af-256917f91eb8
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 475cdcd0-9241-4406-9d16-cac58b01ab27
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: store-panels_variant-0
+  builder: standard
+page: store
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

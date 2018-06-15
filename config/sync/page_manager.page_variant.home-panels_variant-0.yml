@@ -7,7 +7,10 @@ dependencies:
     - system.menu.footer
     - views.view.featured_products
     - views.view.home_slider
+  content:
+    - 'block_content:bloque_text_n_img_meh:81413c3a-29b2-4306-8344-80eac63601ae'
   module:
+    - block_content
     - panels
     - system
     - views
@@ -48,6 +51,18 @@ variant_settings:
       region: content
       weight: -1
       uuid: 23f0b1ab-cb27-4a4b-bfb3-c53d6fd3f64d
+      context_mapping: {  }
+    48435c1c-7cb7-401c-8e49-fc8cf78c717b:
+      id: 'block_content:81413c3a-29b2-4306-8344-80eac63601ae'
+      label: HUNTINK
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 0
+      uuid: 48435c1c-7cb7-401c-8e49-fc8cf78c717b
       context_mapping: {  }
   id: panels_variant
   uuid: eee04af0-acd0-4e29-a0fc-5ace082902ba

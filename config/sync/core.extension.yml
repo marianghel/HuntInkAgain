@@ -27,6 +27,8 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  default_content: 0
+  default_content_deploy: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -38,6 +40,7 @@ module:
   filter: 0
   flexslider: 0
   flexslider_views: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
@@ -57,6 +60,7 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  serialization: 0
   shortcut: 0
   state_machine: 0
   subscribe: 0

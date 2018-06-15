@@ -1,0 +1,28 @@
+uuid: a7a137fb-7629-4d7f-a01a-60b1e9a1a964
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bannerstore.body
+    - node.type.bannerstore
+  module:
+    - text
+    - user
+id: node.bannerstore.teaser
+targetEntityType: node
+bundle: bannerstore
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

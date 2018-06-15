@@ -1,0 +1,39 @@
+uuid: feda2b2e-4cb9-4789-a363-9d316e6f2f30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bannerstore.body
+    - field.field.node.bannerstore.field_imagenew
+    - node.type.bannerstore
+  module:
+    - image
+    - text
+    - user
+id: node.bannerstore.default
+targetEntityType: node
+bundle: bannerstore
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_imagenew:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

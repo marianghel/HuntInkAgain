@@ -1,0 +1,22 @@
+uuid: 61c1e2fb-3e65-4de8-a2a7-28ff7c34a83b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bannerstore
+  module:
+    - text
+id: node.bannerstore.body
+field_name: body
+entity_type: node
+bundle: bannerstore
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
