@@ -1,0 +1,10 @@
+uuid: d4ea3f55-4fec-4fde-b2d2-6c38a2054051
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.clothes_products
+label: 'Clothes Products'
+targetEntityType: commerce_product
+cache: true

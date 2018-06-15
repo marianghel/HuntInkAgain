@@ -1,0 +1,29 @@
+uuid: 90eeb451-1c85-46fc-a0b9-792e9a3c2795
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_clothes
+    - taxonomy.vocabulary.clothes
+id: commerce_product.default.field_clothes
+field_name: field_clothes
+entity_type: commerce_product
+bundle: default
+label: Clothes
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      clothes: clothes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: clothes
+field_type: entity_reference

@@ -1,0 +1,27 @@
+uuid: c2f2ae0d-3c6f-43e1-b066-38df98108c4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.images.field_image
+    - image.style.thumbnail
+    - taxonomy.vocabulary.images
+  module:
+    - image
+id: taxonomy_term.images.default
+targetEntityType: taxonomy_term
+bundle: images
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  description: true
+  name: true
+  path: true

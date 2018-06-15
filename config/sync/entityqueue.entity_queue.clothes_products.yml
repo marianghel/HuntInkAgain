@@ -1,0 +1,26 @@
+uuid: d380d375-2c55-4cae-929f-47f32608a935
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: clothes_products
+label: 'Clothes queue'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: taxonomy_term
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      clothes: clothes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse_in_admin: false

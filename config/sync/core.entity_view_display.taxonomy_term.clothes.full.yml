@@ -1,0 +1,31 @@
+uuid: 6843ae40-a05f-484b-bc02-3189ff36b240
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.clothes.field_clothes_products
+    - taxonomy.vocabulary.clothes
+  module:
+    - text
+id: taxonomy_term.clothes.full
+targetEntityType: taxonomy_term
+bundle: clothes
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_clothes_products:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

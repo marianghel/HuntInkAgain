@@ -1,0 +1,41 @@
+uuid: c4f474f0-a407-4d78-afd7-433dc431ec2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.clothes.field_clothes_products
+    - taxonomy.vocabulary.clothes
+  module:
+    - text
+id: taxonomy_term.clothes.default
+targetEntityType: taxonomy_term
+bundle: clothes
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_clothes_products:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  path: true

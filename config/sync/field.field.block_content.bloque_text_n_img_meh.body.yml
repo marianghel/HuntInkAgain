@@ -1,0 +1,22 @@
+uuid: 4532410e-d50c-4db2-ac94-7fb0f273bd77
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_text_n_img_meh
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.bloque_text_n_img_meh.body
+field_name: body
+entity_type: block_content
+bundle: bloque_text_n_img_meh
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

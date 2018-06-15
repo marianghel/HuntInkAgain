@@ -1,0 +1,47 @@
+uuid: 5c9df22a-74d0-4c4f-84b4-f0db4f1f5ddf
+langcode: en
+status: true
+dependencies: {  }
+id: flexslider_para_slider
+label: 'Featured Products Carousel'
+options:
+  animation: slide
+  animationSpeed: 600
+  direction: horizontal
+  slideshow: false
+  easing: swing
+  smoothHeight: false
+  reverse: false
+  slideshowSpeed: 3000
+  animationLoop: true
+  randomize: false
+  startAt: 0
+  itemWidth: 210
+  itemMargin: 0
+  minItems: 1
+  maxItems: 4
+  move: 1
+  directionNav: true
+  controlNav: '1'
+  thumbCaptions: false
+  thumbCaptionsBoth: false
+  keyboard: true
+  multipleKeyboard: false
+  mousewheel: false
+  touch: true
+  prevText: Previous
+  nextText: Next
+  namespace: flex-
+  selector: '.slides > li'
+  sync: ''
+  asNavFor: ''
+  initDelay: 0
+  useCSS: true
+  video: false
+  pausePlay: false
+  pauseText: Pause
+  playText: Play
+  pauseOnAction: true
+  pauseOnHover: false
+  controlsContainer: ''
+  manualControls: ''

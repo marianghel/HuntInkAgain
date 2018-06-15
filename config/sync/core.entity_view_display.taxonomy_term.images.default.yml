@@ -1,0 +1,25 @@
+uuid: 5417cfaa-0b1e-46ff-8af6-4cb203f31b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.images.field_image
+    - taxonomy.vocabulary.images
+  module:
+    - image
+id: taxonomy_term.images.default
+targetEntityType: taxonomy_term
+bundle: images
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  description: true

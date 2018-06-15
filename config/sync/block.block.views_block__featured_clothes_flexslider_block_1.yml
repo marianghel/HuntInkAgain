@@ -1,0 +1,24 @@
+uuid: 45f3d839-7a42-49b8-85bd-733aaf1518b9
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.featured_clothes_flexslider
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__featured_clothes_flexslider_block_1
+theme: bartik
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:featured_clothes_flexslider-block_1'
+settings:
+  id: 'views_block:featured_clothes_flexslider-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: 4f6b08d7-8f18-443f-a6b3-33031a4e727c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_block.body
+    - node.type.information_block
+  module:
+    - text
+    - user
+id: node.information_block.default
+targetEntityType: node
+bundle: information_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

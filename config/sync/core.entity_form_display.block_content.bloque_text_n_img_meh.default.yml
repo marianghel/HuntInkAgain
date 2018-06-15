@@ -1,0 +1,43 @@
+uuid: 4ac668f6-c1c7-4241-b344-82aa61be9634
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_text_n_img_meh
+    - field.field.block_content.bloque_text_n_img_meh.body
+    - field.field.block_content.bloque_text_n_img_meh.field_image
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.bloque_text_n_img_meh.default
+targetEntityType: block_content
+bundle: bloque_text_n_img_meh
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

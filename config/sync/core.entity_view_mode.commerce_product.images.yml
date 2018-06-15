@@ -1,0 +1,10 @@
+uuid: 8f9fbc05-0a4f-4f69-8da6-58ed65b9c703
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.images
+label: Images
+targetEntityType: commerce_product
+cache: true

@@ -1,0 +1,38 @@
+uuid: 8b852392-4fd7-4a0b-b2b5-971dda89a0e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_text_n_img_meh
+    - field.storage.block_content.field_image
+  module:
+    - image
+id: block_content.bloque_text_n_img_meh.field_image
+field_name: field_image
+entity_type: block_content
+bundle: bloque_text_n_img_meh
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

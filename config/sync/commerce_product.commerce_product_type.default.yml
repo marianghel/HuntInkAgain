@@ -1,0 +1,13 @@
+uuid: e8d75827-4274-47db-9b37-3c4763ac372b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5TqAuVTl1_arKIBeD1qDfJM-pKmaFnqyYSQNdwEK_DQ
+id: default
+label: 'clothes Types'
+description: ''
+variationType: default
+injectVariationFields: true
+traits: {  }
+locked: false

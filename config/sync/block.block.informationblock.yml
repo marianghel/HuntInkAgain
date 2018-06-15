@@ -1,0 +1,20 @@
+uuid: 5d62f48d-58ef-4615-b1a0-1febc8e331c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - subscribe
+  theme:
+    - bartik
+id: informationblock
+theme: bartik
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Information block'
+  provider: subscribe
+  label_display: visible
+visibility: {  }
