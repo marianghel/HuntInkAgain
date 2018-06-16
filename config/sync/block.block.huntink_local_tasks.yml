@@ -1,0 +1,22 @@
+uuid: 7982d82b-1d2b-47fe-82fe-56e3b3f09ed1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - huntink
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: huntink_local_tasks
+theme: huntink
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

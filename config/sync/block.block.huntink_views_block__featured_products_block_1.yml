@@ -1,0 +1,24 @@
+uuid: 44d21ac1-6b9e-406d-9595-732dff52fbfa
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.featured_products
+  module:
+    - views
+  theme:
+    - huntink
+id: huntink_views_block__featured_products_block_1
+theme: huntink
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:featured_products-block_1'
+settings:
+  id: 'views_block:featured_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '40'
+visibility: {  }

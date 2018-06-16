@@ -1,0 +1,25 @@
+uuid: 70d375bc-54a8-403e-be9e-2842fba0cc04
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8298d050-400d-4e30-b519-e39f4d2261c4'
+  module:
+    - block_content
+  theme:
+    - huntink
+id: huntink_footer
+theme: huntink
+region: footer_first
+weight: -6
+provider: null
+plugin: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
+settings:
+  id: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
+  label: Footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

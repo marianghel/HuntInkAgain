@@ -1,0 +1,24 @@
+uuid: 4209dcb8-308e-40ba-b3d2-95d1a776cc64
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.featured_clothes_flexslider
+  module:
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__featured_clothes_flexslider_block_1
+theme: bootstrap_barrio
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:featured_clothes_flexslider-block_1'
+settings:
+  id: 'views_block:featured_clothes_flexslider-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

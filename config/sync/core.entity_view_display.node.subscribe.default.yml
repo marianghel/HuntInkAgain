@@ -1,0 +1,36 @@
+uuid: 766fa629-b128-4d94-95f8-ee5027cea749
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.subscribe.body
+    - field.field.node.subscribe.field_email
+    - node.type.subscribe
+  module:
+    - text
+    - user
+id: node.subscribe.default
+targetEntityType: node
+bundle: subscribe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

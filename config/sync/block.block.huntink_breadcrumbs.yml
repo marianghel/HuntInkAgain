@@ -1,0 +1,22 @@
+uuid: 588af7fb-edb5-424c-a46e-fae743de2f2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - huntink
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: huntink_breadcrumbs
+theme: huntink
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

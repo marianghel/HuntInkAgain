@@ -6,6 +6,7 @@ dependencies:
     - page_manager.page.store
     - views.view.featured_clothes_flexslider
   content:
+    - 'block_content:basic:8298d050-400d-4e30-b519-e39f4d2261c4'
     - 'block_content:bloque_text_n_img_meh:45cad8d1-87e4-46d9-a994-7bfc26c09bd2'
   module:
     - block_content
@@ -38,6 +39,18 @@ variant_settings:
       region: content
       weight: 0
       uuid: 610b4210-9cf6-4617-a5af-256917f91eb8
+      context_mapping: {  }
+    ab226510-b866-4571-a455-7aaa618105f0:
+      id: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
+      label: Footer
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 0
+      uuid: ab226510-b866-4571-a455-7aaa618105f0
       context_mapping: {  }
   id: panels_variant
   uuid: 475cdcd0-9241-4406-9d16-cac58b01ab27

@@ -1,0 +1,22 @@
+uuid: cbd12b01-f630-499a-b2fb-42527303cf02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.subscribe
+  module:
+    - text
+id: node.subscribe.body
+field_name: body
+entity_type: node
+bundle: subscribe
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

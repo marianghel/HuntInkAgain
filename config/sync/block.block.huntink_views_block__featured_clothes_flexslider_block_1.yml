@@ -1,0 +1,24 @@
+uuid: 8d59f0f3-d98e-494c-8dcc-bcd0e3fe4e4f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.featured_clothes_flexslider
+  module:
+    - views
+  theme:
+    - huntink
+id: huntink_views_block__featured_clothes_flexslider_block_1
+theme: huntink
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:featured_clothes_flexslider-block_1'
+settings:
+  id: 'views_block:featured_clothes_flexslider-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

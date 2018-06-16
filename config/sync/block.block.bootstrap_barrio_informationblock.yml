@@ -1,0 +1,18 @@
+uuid: 67450489-c1b5-421f-8466-1516ade085ee
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_informationblock
+theme: bootstrap_barrio
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Information block'
+  provider: subscribe
+  label_display: visible
+visibility: {  }

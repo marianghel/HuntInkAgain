@@ -1,0 +1,22 @@
+uuid: 27da2393-7656-42fb-8d20-872799f53dc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - huntink
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: huntink_content
+theme: huntink
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

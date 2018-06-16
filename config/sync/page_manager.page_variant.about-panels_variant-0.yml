@@ -1,0 +1,43 @@
+uuid: e69c5cae-588b-4f3d-8129-2655b158315a
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.about
+  content:
+    - 'block_content:bloque_text_n_img_meh:8d5b8d8e-826b-46b7-84f1-c5277b748ce9'
+  module:
+    - block_content
+    - panels
+id: about-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    62f52a89-8c72-4a32-9a16-c508ff7478e3:
+      id: 'block_content:8d5b8d8e-826b-46b7-84f1-c5277b748ce9'
+      label: About
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 0
+      uuid: 62f52a89-8c72-4a32-9a16-c508ff7478e3
+      context_mapping: {  }
+  id: panels_variant
+  uuid: b5e4b185-0df3-4797-9fd1-e6f25f5beb1b
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: about-panels_variant-0
+  builder: standard
+page: about
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
