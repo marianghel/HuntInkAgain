@@ -1,4 +1,4 @@
-/* 
+/*
 Theme Name: Bootstrap 4 Sass
 Description: Bootstrap 4 with Sass
 */
@@ -14,7 +14,7 @@ body {
 }
 
 
-/* COLORS 
+/* COLORS
 --------------------------------------------------*/
 
 a {
@@ -57,4 +57,43 @@ a {
 
 .slick>div {
     margin: 0 15px;
+}
+/* EDICION HUNTINK
+--------------------- FOOTER  -----------------------------*/
+.site-footer{
+  background: black !important;
+
+  p{
+    color:white;
+  }
+}
+/*--------------------- NAV -----------------------------*/
+#navbar-main{
+  background: black;
+  padding: 5px 0px 5px 0px;
+
+
+  a{
+    float: right;
+    color: white;
+  }
+}
+.views-view-grid {
+  margin: 10px 5px 5px 5px;
+}
+.fiel-item{
+  img{
+    width: 25%;
+  }
+}
+#navbar-main{
+  padding: 3% 0% 3% 0%;
+
+  nav a{
+    float: right;
+    text-align: right;
+  }
+}
+.row{
+  display: inline !important;
 }
