@@ -1,18 +1,20 @@
-uuid: 95c9ff5f-1d94-41ca-9926-07b290a0faef
+uuid: 4441417d-cc4e-40de-8081-913e693a631d
 langcode: en
 status: true
 dependencies:
+  module:
+    - drupal_subscribe
   theme:
     - huntink
-id: huntink_informationblock
+id: informationblock_2
 theme: huntink
-region: featured_bottom_first
+region: featured_top
 weight: 0
 provider: null
 plugin: information_block
 settings:
   id: information_block
   label: 'Information block'
-  provider: subscribe
+  provider: drupal_subscribe
   label_display: visible
 visibility: {  }

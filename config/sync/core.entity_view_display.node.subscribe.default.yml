@@ -1,4 +1,4 @@
-uuid: 766fa629-b128-4d94-95f8-ee5027cea749
+uuid: 33aadff9-a838-4a5a-a27d-8540c4f14721
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.subscribe.field_email
     - node.type.subscribe
   module:
+    - drupal_subscribe
     - text
     - user
 id: node.subscribe.default
@@ -22,11 +23,11 @@ content:
     third_party_settings: {  }
     region: content
   field_email:
-    weight: 102
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: email_mailto
+    type: email_link_field_gormatter
     region: content
   links:
     weight: 100

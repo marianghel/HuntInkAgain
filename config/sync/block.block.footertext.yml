@@ -1,24 +1,24 @@
-uuid: b7e78d9c-0812-491e-9918-7f1e265aad98
+uuid: 7f5c93f2-4c4b-47a3-8a39-a1bdd2bde907
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:8298d050-400d-4e30-b519-e39f4d2261c4'
   module:
     - block_content
   theme:
-    - bootstrap_barrio
-id: bootstrap_barrio_footer
-theme: bootstrap_barrio
+    - huntink
+id: footertext
+theme: huntink
 region: footer_first
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
 settings:
   id: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
-  label: Footer
+  label: Footer-Text
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

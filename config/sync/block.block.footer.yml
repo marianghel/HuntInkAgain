@@ -1,25 +1,24 @@
-uuid: 1d31970e-6b57-4cea-b62c-a6c71a59f01d
+uuid: d884f6f9-d5e5-47d5-8a75-3f2a0cdae889
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:8298d050-400d-4e30-b519-e39f4d2261c4'
+  config:
+    - system.menu.footer
   module:
-    - block_content
+    - system
   theme:
-    - bartik
+    - huntink
 id: footer
-theme: bartik
+theme: huntink
 region: footer_first
-weight: 0
+weight: -5
 provider: null
-plugin: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
+plugin: 'system_menu_block:footer'
 settings:
-  id: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
+  id: 'system_menu_block:footer'
   label: Footer
-  provider: block_content
-  label_display: visible
-  status: true
-  info: ''
-  view_mode: full
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
 visibility: {  }
