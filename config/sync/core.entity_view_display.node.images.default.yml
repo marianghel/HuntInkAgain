@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.images.field_image
+    - image.style.flexslider_full
     - node.type.images
   module:
     - image
@@ -15,9 +16,9 @@ mode: default
 content:
   field_image:
     weight: 102
-    label: above
+    label: hidden
     settings:
-      image_style: ''
+      image_style: flexslider_full
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -25,4 +26,6 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

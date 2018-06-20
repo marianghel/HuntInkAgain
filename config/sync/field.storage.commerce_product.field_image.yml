@@ -13,11 +13,11 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: 20426242-c843-461f-9aee-bd91b86d9579
+    uuid: 7dc537a7-558a-430e-bd32-52e672c6020d
     alt: ''
     title: ''
-    width: 720
-    height: 405
+    width: 1092
+    height: 569
   target_type: file
   display_field: false
   display_default: false

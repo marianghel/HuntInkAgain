@@ -4,4 +4,4 @@ status: true
 dependencies: {  }
 id: color
 label: color
-elementType: radios
+elementType: select

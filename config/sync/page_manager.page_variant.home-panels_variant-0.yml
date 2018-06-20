@@ -7,10 +7,11 @@ dependencies:
     - views.view.featured_products
     - views.view.home_slider
   content:
-    - 'block_content:basic:8298d050-400d-4e30-b519-e39f4d2261c4'
+    - 'block_content:bloque_text_n_img_meh:6414d0f2-5877-414e-87f7-24565da81622'
     - 'block_content:bloque_text_n_img_meh:81413c3a-29b2-4306-8344-80eac63601ae'
   module:
     - block_content
+    - drupal_subscribe_demos
     - panels
     - views
 id: home-panels_variant-0
@@ -26,7 +27,7 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: content
-      weight: 1
+      weight: 2
       uuid: dce106c9-fcff-4e68-a08f-85bd5fed20a3
       context_mapping: {  }
     23f0b1ab-cb27-4a4b-bfb3-c53d6fd3f64d:
@@ -37,7 +38,7 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: content
-      weight: -1
+      weight: 0
       uuid: 23f0b1ab-cb27-4a4b-bfb3-c53d6fd3f64d
       context_mapping: {  }
     48435c1c-7cb7-401c-8e49-fc8cf78c717b:
@@ -49,20 +50,29 @@ variant_settings:
       info: ''
       view_mode: full
       region: content
-      weight: 0
+      weight: 1
       uuid: 48435c1c-7cb7-401c-8e49-fc8cf78c717b
       context_mapping: {  }
-    14c14311-b069-4eab-8504-9c692a72b009:
-      id: 'block_content:8298d050-400d-4e30-b519-e39f4d2261c4'
-      label: Footer-Text
+    820726db-fae3-42ce-bc00-087f34fe5eb1:
+      id: subscribe_block
+      label: 'Subscribe block'
+      provider: drupal_subscribe_demos
+      label_display: visible
+      region: content
+      weight: 4
+      uuid: 820726db-fae3-42ce-bc00-087f34fe5eb1
+      context_mapping: {  }
+    f585a4fa-7e5d-4335-9e0d-35c5261f8ac4:
+      id: 'block_content:6414d0f2-5877-414e-87f7-24565da81622'
+      label: cartBanner
       provider: block_content
       label_display: visible
       status: true
       info: ''
       view_mode: full
       region: content
-      weight: 2
-      uuid: 14c14311-b069-4eab-8504-9c692a72b009
+      weight: 3
+      uuid: f585a4fa-7e5d-4335-9e0d-35c5261f8ac4
       context_mapping: {  }
   id: panels_variant
   uuid: eee04af0-acd0-4e29-a0fc-5ace082902ba

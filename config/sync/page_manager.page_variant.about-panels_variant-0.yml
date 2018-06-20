@@ -5,7 +5,7 @@ dependencies:
   config:
     - page_manager.page.about
   content:
-    - 'block_content:bloque_text_n_img_meh:8d5b8d8e-826b-46b7-84f1-c5277b748ce9'
+    - 'block_content:basic:21fc026e-133b-4495-bf60-59bb503e750b'
   module:
     - block_content
     - panels
@@ -14,8 +14,8 @@ label: Panels
 variant: panels_variant
 variant_settings:
   blocks:
-    62f52a89-8c72-4a32-9a16-c508ff7478e3:
-      id: 'block_content:8d5b8d8e-826b-46b7-84f1-c5277b748ce9'
+    07158255-a780-4ada-beb5-79d5a85c5245:
+      id: 'block_content:21fc026e-133b-4495-bf60-59bb503e750b'
       label: About
       provider: block_content
       label_display: visible
@@ -24,7 +24,7 @@ variant_settings:
       view_mode: full
       region: content
       weight: 0
-      uuid: 62f52a89-8c72-4a32-9a16-c508ff7478e3
+      uuid: 07158255-a780-4ada-beb5-79d5a85c5245
       context_mapping: {  }
   id: panels_variant
   uuid: b5e4b185-0df3-4797-9fd1-e6f25f5beb1b

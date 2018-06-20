@@ -9,7 +9,7 @@ dependencies:
     - field.field.commerce_product.default.field_image
     - field.field.commerce_product.default.stores
     - field.field.commerce_product.default.variations
-    - image.style.thumbnail
+    - image.style.flexslider_thumbnail
   module:
     - image
     - inline_entity_form
@@ -42,8 +42,8 @@ content:
   field_image:
     weight: 0
     settings:
+      preview_image_style: flexslider_thumbnail
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content

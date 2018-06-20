@@ -1,11 +1,11 @@
 features:
-  node_user_picture: 1
-  comment_user_picture: 1
-  comment_user_verification: 1
+  node_user_picture: 0
+  comment_user_picture: 0
+  comment_user_verification: 0
   favicon: 0
 logo:
   use_default: 0
-  path: 'public://logomenu.png'
+  path: sites/default/files/logomenu_0.png
 favicon:
   use_default: 0
   path: ''

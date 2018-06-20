@@ -10,7 +10,7 @@ dependencies:
     - huntink
 id: huntink_views_block__featured_products_block_1
 theme: huntink
-region: content
+region: highlighted
 weight: -4
 provider: null
 plugin: 'views_block:featured_products-block_1'
