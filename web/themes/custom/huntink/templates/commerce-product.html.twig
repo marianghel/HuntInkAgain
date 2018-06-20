@@ -19,7 +19,19 @@
  * @ingroup themeable
  */
 #}
+{%
+  set classes = [
+    'card',
+    'card-img-top',
+    'card-body',
+    'card-title',
+    'card-text',
+    'imageProduct',
+  ]
+%}
+<article{{ attributes.addClass(classes) }}>
+<div class="card-body">
+    {{- product|without('variation_attributes') -}}
+</div>
 
-<article{{ attributes }}>
-  {{- product|without('variation_attributes') -}}
 </article>

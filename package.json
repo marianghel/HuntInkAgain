@@ -1,0 +1,19 @@
+{
+  "name": "huntink",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianghel/HuntInkAgain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianghel/HuntInkAgain/issues"
+  },
+  "homepage": "https://github.com/marianghel/HuntInkAgain#readme"
+}

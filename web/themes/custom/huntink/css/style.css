@@ -10,6 +10,7 @@ Description: Bootstrap 4 with Sass
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Catamaran|Muli:700|Oswald:700|Varela");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7667,6 +7668,19 @@ nav.tabs {
 -------------------------------------------------*/
 body {
   background: #fff; }
+  body .field__item p {
+    font-family: 'Muli', sans-serif;
+    font-size: 110%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+    line-height: 1.8;
+    color: #1f1a38;
+    text-align: justify;
+    margin-top: -22%;
+    position: absolute; }
+  body #main {
+    margin-top: -4rem; }
 
 /* COLORS
 --------------------------------------------------*/
@@ -7705,29 +7719,64 @@ a {
 /* EDICION HUNTINK
 --------------------- FOOTER  -----------------------------*/
 .site-footer {
-  background: black !important; }
+  background: #141d28 !important; }
   .site-footer p {
-    color: white; }
+    color: white !important; }
 
 /*--------------------- NAV -----------------------------*/
 #navbar-main {
-  background: black;
-  padding: 5px 0px 5px 0px; }
-  #navbar-main a {
+  background: black; }
+  #navbar-main nav a {
     float: right;
-    color: white; }
+    text-align: right;
+    text-transform: uppercase;
+    margin-left: 60%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100%;
+    color: white;
+    letter-spacing: 3px; }
+
+.navbar-collapse {
+  margin-left: 40% !important; }
 
 .views-view-grid {
-  margin: 10px 5px 5px 5px; }
+  margin: 10px 5px 5px 5px !important; }
 
 .fiel-item img {
   width: 25%; }
 
-#navbar-main {
-  padding: 3% 0% 3% 0%; }
-  #navbar-main nav a {
-    float: right;
-    text-align: right; }
+.imgHuntInk {
+  width: 100%;
+  height: 90%;
+  position: relative; }
 
 .row {
   display: inline !important; }
+
+#row-footer {
+  display: flex; }
+
+.imageProduct {
+  margin: 3%; }
+
+#buttonPrueba {
+  background-color: #004354;
+  border-style: none; }
+
+.flexsliderMargin {
+  margin: 50%; }
+
+p {
+  font-family: 'Muli', sans-serif;
+  font-size: 110%;
+  line-height: 1.8;
+  color: #1f1a38;
+  text-align: justify; }
+
+.logoMenu {
+  width: 9%;
+  margin: 1% 20% 1% 6%; }
+
+.logoFooter {
+  width: 10%;
+  margin: 0% 0% 5% 2%; }

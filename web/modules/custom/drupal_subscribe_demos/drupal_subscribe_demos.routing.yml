@@ -1,0 +1,9 @@
+drupal_subscribe_demos.configuration_form:
+  path: 'admin/config/drupal-subscribe-configuration'
+  defaults:
+    _form: '\Drupal\drupal_subscribe_demos\Form\ConfigurationForm'
+    _title: 'ConfigurationForm'
+  requirements:
+    _permission: 'accesss demo configuration'
+  options:
+    _admin_route: TRUE

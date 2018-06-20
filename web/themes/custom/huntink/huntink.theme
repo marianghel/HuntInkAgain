@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Markup;
 
 /**
  * Implements hook_form_system_theme_settings_alter() for settings form.
@@ -29,4 +30,12 @@ function huntink_form_system_theme_settings_alter(&$form, FormStateInterface $fo
       'bg-white' => t('White'),
       'bg-transparent' => t('Transparent'),
   );
+}
+
+function drupalitm_preprocess_menu(&$variables) {
+  foreach ($variables['items'] as &$item) {
+    if ($item['title'] === 'Cart') {
+      $item['title'] = Markup::create('<i class="fa fa-cart-plus"></i><span class="text-hidden hidden">Cart</span>');
+    }
+  }
 }

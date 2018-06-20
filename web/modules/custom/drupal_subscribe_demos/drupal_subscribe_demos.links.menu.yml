@@ -1,0 +1,14 @@
+drupal_subscribe_demos.configuration_form:
+  title: 'ConfigurationForm'
+  route_name: drupal_subscribe_demos.configuration_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99
+
+drupal_subscribe_demos.configuration_form:
+  title: 'Drupal Subscribe Configuration'
+  route_name: drupal_subscribe_demos.configuration_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99
+
