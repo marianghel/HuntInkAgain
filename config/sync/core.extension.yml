@@ -29,6 +29,7 @@ module:
   dblog: 0
   default_content: 0
   default_content_deploy: 0
+  devel: 0
   drupal_subscribe: 0
   drupal_subscribe_demos: 0
   dynamic_page_cache: 0
@@ -42,14 +43,19 @@ module:
   filter: 0
   flexslider: 0
   flexslider_views: 0
+  geofield: 0
+  geofield_map: 0
+  geolocation: 0
   hal: 0
   help: 0
   history: 0
   image: 0
   inline_entity_form: 0
+  kint: 0
   layout_discovery: 0
   libraries: 0
   link: 0
+  media: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -57,11 +63,13 @@ module:
   page_manager: 0
   page_manager_ui: 0
   panels: 0
+  parallax_bg: 0
   path: 0
   profile: 0
   quickedit: 0
   rdf: 0
   search: 0
+  search_kint: 0
   serialization: 0
   shortcut: 0
   state_machine: 0
@@ -73,6 +81,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  video_embed_field: 0
+  video_embed_media: 0
   views_ui: 0
   menu_link_content: 1
   views: 10

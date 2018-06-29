@@ -29,9 +29,16 @@
     'imageProduct',
   ]
 %}
+
+
 <article{{ attributes.addClass(classes) }}>
-<div class="card-body">
-    {{- product|without('variation_attributes') -}}
-</div>
+
+  <div class="card">
+    <div class="card-body">
+  {{- product|without('variation_attributes') -}}
+    </div>
+
+  </div>
+
 
 </article>

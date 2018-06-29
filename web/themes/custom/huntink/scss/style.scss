@@ -26,17 +26,44 @@ body {
      position: absolute;
 }
   #main{
-    margin-top: -7rem;
-    .container-fluid{
-      width:100%;
-    }
-  }
-  .subscribe-Form{
+    margin-top: -2%;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
 
   }
+  .container-fluid{
+    margin-top: -3%;
+  }
+  .view-home-slider{
+    margin-top: -1%;
+    border: none;
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+  }
+
 //  #btnLogo{
     // background: url('./images/logoBlanco.png');
 //  }
+.site-footer{
+  .container{
+    #row-footer{
+
+      #logoFooter{
+      margin: -1% 0% 4% 0%;
+      .logoFooter{
+        width: 22%;
+      }
+      }
+      #copyright{
+      margin-top: -3%;
+      }
+      #icon{
+        color: white;
+      }
+    }
+  }
+}
+
 
 
 
@@ -90,7 +117,7 @@ a {
 /* EDICION HUNTINK
 --------------------- FOOTER  -----------------------------*/
 .site-footer{
-  background: #141d28 !important;
+  background: black !important;
   p{
     color:white !important;
   }
@@ -123,34 +150,28 @@ a {
   }
 }
 .imgHuntInk{
+  margin-top: -2%;
   width: 100%;
   height: 90%;
   position: relative;
 }
 
-.row{
-  display: inline !important;
-}
+
 #row-footer{
   display: flex;
 }
 .imgHuntInk{
-
+margin: 3rem 0 4rem;
 }
 .imageProduct{
   margin: 3%;
 }
 #buttonPrueba{
-  background-color: #004354;
+  background-color: black;
   border-style: none;
+  border-radius: none !important;
 }
-.flexsliderMargin{
-  margin: 50%;
-}
-.flexslider{
-//  margin: 0 60px 0 60px !important;
-background-color:  #000;
-}
+
 p{
     font-family: 'Muli', sans-serif;
      font-size: 110%;
@@ -160,9 +181,246 @@ p{
 }
 .logoMenu{
   width: 9%;
-margin: 1% 20% 1% 6%;
+  margin: 1% 20% 1% 6%;
 }
-.logoFooter{
-  width: 10%;
-  margin: 0% 0% 5% 2%;
+
+/*--------- RESPONSIVE TEXT------------*/
+@media screen and (max-width: 640px){
+ .field__item p{
+font-size: 12%;
+}
+}
+.main-content{
+
+  padding-right: 1% !important;
+  padding-left: 1% !important;
+}
+.flexslider{
+  border: none !important;
+  border-radius: none !important;
+}
+.full{
+  height: 85vh;
+}
+.node__content{
+  margin-top: 1% !important;
+  padding-left: 0%;
+  padding-right: 0%;
+  border: none  !important;
+  border-radius: none  !important;
+}
+#content{
+
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+
+}
+#row-sub{
+  display: grid !important;
+}
+
+#wrapper {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    width: 100% !important;
+    padding: 0% 5% 0 5%;
+}
+
+.bloques {
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100% !important;
+}
+
+#bloque1 {
+background: url(../images/blockP.png);
+margin-bottom: -20%;
+}
+
+#bloque2 {
+background: url(../images/blockP.png);
+height: 50%;
+}
+
+#bloque3 {
+background: url(../images/blockP.png);
+height: 50%;
+
+}
+
+.ih-item.square {
+  position: relative;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ih-item.square .info {
+  position: absolute;
+  margin-top: 8%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ih-item.square.effect {
+  overflow: hidden;
+  position: relative;
+}
+
+.ih-item.square.effect7 {
+  overflow: hidden;
+}
+
+.ih-item.square.effect7.colored .info {
+  background: #1a4a72;
+  background: rgba(26, 74, 114, 0.6);
+}
+
+.ih-item.square.effect7.colored .info h3 {
+  background: rgba(12, 34, 52, 0.6);
+}
+
+.ih-item.square.effect7 .img {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.ih-item.square.effect7 .info {
+  background: #333333;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.ih-item.square.effect7 .info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  background: #111111;
+  margin: 30px 0 0 0;
+  -webkit-transform: scale(4);
+  -moz-transform: scale(4);
+  -ms-transform: scale(4);
+  -o-transform: scale(4);
+  transform: scale(4);
+  -webkit-transition: all 0.35s 0.1s ease-in-out;
+  -moz-transition: all 0.35s 0.1s ease-in-out;
+  transition: all 0.35s 0.1s ease-in-out;
+}
+
+.ih-item.square.effect7 .info p {
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #bbb;
+  padding: 20px 20px 20px;
+  text-align: center;
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  transform: scale(5);
+  -webkit-transition: all 0.35s 0.3s linear;
+  -moz-transition: all 0.35s 0.3s linear;
+  transition: all 0.35s 0.3s linear;
+}
+
+.ih-item.square.effect7 a:hover .img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.ih-item.square.effect7 a:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ih-item.square.effect7 a:hover .info h3,
+.ih-item.square.effect7 a:hover .info p {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+#img{
+  width: 25%;
+  height: 25%;
+}
+.row{
+  display: inline !important;
+}
+
+#main-content{
+
+}
+.navbar-toggler{
+  background-color: white;
+
+}
+.flexslider-custom{
+  margin: 0% !important;
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+  border: none !important;
+}
+.block-subscribe{
+  background: url(../images/sub.png);
+  background-repeat: no-repeat;
+  height: 200%;
+  padding: 5% 5% 1% 5%;
+  margin-bottom: -4%;
+}
+.transparente2{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  color:white;
+  padding: 1% 36% 0% 36%;
+  margin: -3% -5% 5% -5%;
+}
+#transparente2{
+  padding: 0% 20% 0% 20%;
+}
+.h1{
+  font-size: 100%;
+}
+
+@media screen and (max-width: 640px){
+ .logoMenu{
+width: 25%;
+}
+}
+.pagination{
+  padding-left: 45% !important;
+}
+.page-link{
+  color:#fff;
+  background-color: #000;
+}
+
+#carritoForm{
+ margin-top: 3% !important;
 }

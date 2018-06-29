@@ -1,0 +1,32 @@
+uuid: 2c8c4f82-00e9-4228-b82c-6cf4ac440ad8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.videoh
+    - field.field.block_content.videoh.body
+  module:
+    - text
+id: block_content.videoh.default
+targetEntityType: block_content
+bundle: videoh
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -46,4 +46,4 @@ options:
   pauseOnAction: true
   pauseOnHover: false
   controlsContainer: .flex-control-nav-container
-  manualControls: ''
+  manualControls: .flexslider-custom

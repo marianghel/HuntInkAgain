@@ -7,11 +7,13 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
+    - field.field.node.article.field_map
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
   module:
     - comment
+    - geolocation
     - image
     - text
     - user
@@ -24,7 +26,7 @@ mode: default
 content:
   body:
     type: text_default
-    weight: 0
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -40,13 +42,46 @@ content:
     third_party_settings: {  }
   field_image:
     type: image
-    weight: -1
+    weight: 1
     region: content
     settings:
       image_style: large
       image_link: ''
     third_party_settings: {  }
     label: hidden
+  field_map:
+    weight: 0
+    label: above
+    settings:
+      set_marker: '1'
+      title: HuntInk
+      info_text: ''
+      google_map_settings:
+        height: 400px
+        width: 100%
+        type: ROADMAP
+        zoom: '10'
+        maxZoom: 18
+        minZoom: 0
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        scrollwheel: 1
+        gestureHandling: auto
+        draggable: 1
+        style: ''
+        info_auto_display: 1
+        marker_icon_path: ''
+        disableAutoPan: 1
+        rotateControl: 0
+        fullscreenControl: 0
+        preferScrollingToZooming: 0
+        disableDoubleClickZoom: 0
+      use_overridden_map_settings: 0
+      common_map: ''
+    third_party_settings: {  }
+    type: geolocation_map
+    region: content
   field_tags:
     type: entity_reference_label
     weight: 10

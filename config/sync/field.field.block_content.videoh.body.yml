@@ -1,0 +1,22 @@
+uuid: 80eec0f6-90b9-44f9-88b4-8bdb5ceab2a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.videoh
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.videoh.body
+field_name: body
+entity_type: block_content
+bundle: videoh
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

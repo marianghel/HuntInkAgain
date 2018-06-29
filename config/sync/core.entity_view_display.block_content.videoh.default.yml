@@ -1,0 +1,22 @@
+uuid: fbe0b64c-1169-44a1-962e-8785e3664e40
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.videoh
+    - field.field.block_content.videoh.body
+  module:
+    - text
+id: block_content.videoh.default
+targetEntityType: block_content
+bundle: videoh
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

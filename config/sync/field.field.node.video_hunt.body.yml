@@ -1,0 +1,22 @@
+uuid: e1a144e7-dfb3-49cc-b6bb-82030c09374a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.video_hunt
+  module:
+    - text
+id: node.video_hunt.body
+field_name: body
+entity_type: node
+bundle: video_hunt
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,28 @@
+uuid: dd4b9286-e1ec-4940-92e0-19621385f9f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.video_hunt.body
+    - node.type.video_hunt
+  module:
+    - text
+    - user
+id: node.video_hunt.teaser
+targetEntityType: node
+bundle: video_hunt
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

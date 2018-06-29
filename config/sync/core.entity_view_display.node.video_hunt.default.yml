@@ -1,0 +1,39 @@
+uuid: 1cb2c0e8-dfe5-4998-b003-5715b72f76c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.video_hunt.body
+    - field.field.node.video_hunt.field_huntvideo
+    - node.type.video_hunt
+  module:
+    - text
+    - user
+    - video_embed_field
+id: node.video_hunt.default
+targetEntityType: node
+bundle: video_hunt
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_huntvideo:
+    weight: 102
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

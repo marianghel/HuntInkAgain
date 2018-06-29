@@ -67,6 +67,9 @@
  * @see html.html.twig
  */
 #}
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
 <div id="page-wrapper">
   <div id="page">
     <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t}}">
@@ -95,7 +98,7 @@
             {{ page.header }}
             {% if page.primary_menu or page.header_form %}
           <!--div class="navbar-brand"-->   <img class="logoMenu" src="{{ directory }}/images/logoMenu.png" alt="TattoosStyles"><!--/div-->
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+              <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
               <div class="collapse navbar-collapse" id="CollapsingNavbar">
                 {{ page.primary_menu }}
                 {% if page.header_form %}
@@ -140,20 +143,78 @@
                   <a id="main-content" tabindex="-1"></a>
 
                   {{ page.content }}
-                  <div class="about">
-                    <h1>HuntInk</h1>
-                    <p>HuntInk handles a strategy of differentiation since there are no applications in the tattoos industry with information about tattooists;<br>
-                       there are applications that have tattoo designs, for people to be inspired; but there are not those who directly possess information about <br>
-                       the tattooists and their works. The strategy of high segmentation approach is also used, since the market is segmented to only one type of person,<br>
-                        due to its unique focus on tattoos.</p>
-                    <h2>Mision</h2>
-                    <p>Satisfy the needs of customers by providing quality products, meeting their needs and expectations..</p>
+                  <div class="wrapper">
+                    <section class="bloques" id="bloque1">
+                      <div id="transparente2">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12">
+                            <center>  <h1 id="sloganMaes">
+                                HUNTINK
+                              </h1>
 
-                    <h2>Vision</h2>
-                    <p>To be leaders in the format of online stores providing an excellent service and contributing to the growth of our collaborators, strengthening our solidity through planning and teamwork.</p>
+                              <p id="info">
+                                HuntInk handles a strategy of differentiation since there are no applications in the tattoos industry with information about tattooists;
+                                there are applications that have tattoo designs, for people to be inspired; but there are not those who directly possess information about
+                                the tattooists and their works. The strategy of high segmentation approach is also used, since the market is segmented to only one type of person,
+                                due to its unique focus on tattoos.</p></center>
+                              </div>
+                            </div>
+                              </div>
+                                </div>
+                          </section>
 
-                  </div>
-                </section>
+                          <section class="bloques" id="bloque2">
+                            <div id="transparente2">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <center>
+                                 <h1 id="sloganMaes">
+                                      Mision
+                                    </h1>
+
+                                    <p id="info">
+                                      Satisfy the needs of customers by providing quality products, meeting their needs and expectations..
+                                    </p></center>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                              </section>
+
+                              <section class="bloques" id="bloque3">
+                                <div id="transparente2">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-sm-12">
+                                      <center>  <h1 id="sloganMaes">
+                                          Vision
+                                        </h1>
+
+                                        <p id="info">
+                                          To be leaders in the format of online stores providing an excellent service and contributing to the growth of our collaborators, strengthening our solidity through planning and teamwork.
+                                        </p></center>
+                                      </div>
+                                    </div>
+                                    </div>
+                                      </div>
+                                  </section>
+                        </div> <!-- fin del wrapper-->
+
+
+
+
+
+
+              </section> <!-- section content-->
+<div class="col-md-12">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18826.081184134968!2d-84.13228549532472!3d9.998404964171451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0faddaded66bd%3A0x2527e99d1a1e0bdf!2sHeredia!5e0!3m2!1ses!2scr!4v1530166463620" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+
+
               </main>
             {% if page.sidebar_first %}
               <div{{ sidebar_first_attributes }}>
@@ -183,17 +244,25 @@
       </div>
     {% endif %}
     <footer class="site-footer">
-      <div class="container">
-        <div id="row-footer" class="row">
-          <div class="col-md-12">
-            <p>©Copyright HuntInk 2018</p>
-            <img src="../images/logoBlanco.svg">
-
-          </div>
-
-
-          </div>
+    <div class="container">
+      <div id="row-footer" class="row col-md-12">
+        <div id="logoFooter" class="col-md-6">
+          <img class="logoFooter" src="{{ directory }}/images/logoMenu.png">
         </div>
+        <div id="copyright"class="col-md-6">
+          <p>©Copyright HuntInk 2018</p>
+         </div>
+         <div class="col-md-12">
+           <a id="icon" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+           <a id="icon"  href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+           <a id="icon"  href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a>
+           <a id="icon"  href="https://www.pinterest.es/"><i class="fa fa-pinterest-p"></i></a>
+          </div>
+
+
+        </div>
+      </div>
+
     </footer>
   </div>
 </div>
