@@ -8,7 +8,7 @@ migration_group: null
 label: Articles
 source:
   plugin: csv
-  path: modules/custom/drupal/huntink/csv/articles-project.csv
+  path: themes/custom/huntink/csv/articles.csv
   header_row_count: 1
   keys:
     - id
