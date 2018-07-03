@@ -32,6 +32,9 @@
         "drupal/flexslider": "^2.0@beta",
         "drupal/geofield_map": "^2.5",
         "drupal/geolocation": "^1.11",
+        "drupal/migrate_plus": "^2.0",
+        "drupal/migrate_source_csv": "^2.2",
+        "drupal/migrate_tools": "^2.0",
         "drupal/page_manager": "^4.0@beta",
         "drupal/panels": "^4.3",
         "drupal/parallax_bg": "^1.0",
@@ -85,6 +88,9 @@
         "patches": {
           "drupal/page_manager": {
             "https://www.drupal.org/project/page_manager/issues/2874851" : "https://www.drupal.org/files/issues/page_manager-2874851-8.patch"
+          },
+          "drupal/migrate_tools":{
+            "Port commands to drush 9":"https://www.drupal.org/files/issues/migrate_tools-2914005-41.patch"
           }
         }
     }

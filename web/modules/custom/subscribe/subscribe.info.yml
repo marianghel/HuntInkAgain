@@ -1,0 +1,5 @@
+name: 'Placeholder module'
+type: module
+description: 'Some demos for Drupal Subscribe'
+core: 8.x
+package: 'Custom'

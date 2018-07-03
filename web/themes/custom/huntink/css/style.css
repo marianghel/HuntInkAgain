@@ -7690,6 +7690,9 @@ body {
     border: none;
     padding: 0% 0% 0% 0%;
     width: 100%; }
+  body .sectionProduct {
+    width: 23rem;
+    margin: 4% 5% 0% 34%; }
   body .site-footer .container #row-footer #logoFooter {
     margin: -1% 0% 4% 0%; }
     body .site-footer .container #row-footer #logoFooter .logoFooter {
@@ -7773,9 +7776,6 @@ a {
 
 .imgHuntInk {
   margin: 3rem 0 4rem; }
-
-.imageProduct {
-  margin: 3%; }
 
 #buttonPrueba {
   background-color: black;
